@@ -17,7 +17,7 @@ form.addEventListener('submit', (event) =>{
 
    // Verifica se o nome está vazio
    if(nameInput.value === ''){
-     nameForm.textContent = 'Por favor, preencha o campo Nome'
+     nameForm.textContent = 'Por favor, preencha o campo acima'
       return; // return impede que a função continue
    }
 
