@@ -40,6 +40,7 @@ textarea{
 button{
    padding: 10px;
    border: none;
+   border-radius: 5px;
    background-color: #333;
    color: #fff;
    font-size: 1.1rem;
@@ -50,4 +51,58 @@ button{
    margin-bottom: 1rem;
    margin-left: .2rem;
    color: rgb(239, 30, 30);
+}
+
+/* MOBILE */
+@media (max-width: 480px){
+   body{
+      padding-top: 0;
+   }
+   h1{
+      text-align: center;
+   }
+   form{
+      width: 20rem;
+    height: 36rem;
+   }
+   #form input{
+      width: 98%;
+   }
+   #job{
+      width: 98%;
+   }
+   #form textarea{
+      width: 98%;
+   }
+   button{
+      width: 13rem;
+      margin-left: 3rem;
+   }
+}
+
+/* EXTRA MOBILE -  */
+@media (min-width: 481px) and (max-width: 525px){
+   body{
+      padding-top: 0;
+   }
+   h1{
+      text-align: center;
+   }
+   form{
+      width: 95%;
+      height: 37rem;
+   }
+   #form input{
+      width: 98%;
+   }
+   #job{
+      width: 98%;
+   }
+   #form textarea{
+      width: 98%;
+   }
+   button{
+      width: 13rem;
+      margin-left: 5.5rem;
+   }
 }
